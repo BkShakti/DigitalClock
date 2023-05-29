@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 100%;
+  height: 100vh;
+  background-color: gray;
+  position: relative;
+}
+
+.container div {
+  font-size: 4rem;
+  color: azure;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
